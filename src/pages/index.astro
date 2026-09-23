@@ -1,0 +1,168 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+---
+<BaseLayout>
+  <section class="hero">
+    <span class="eyebrow">SOFTWARE ENGINEER · KATHMANDU, NEPAL</span>
+    <h1>I build software for <em>complex systems.</em></h1>
+    <p class="hero-copy">
+      I'm Dhiraj Phuyal, a Software Engineer at Cedar Gate Technologies. I work on
+      healthcare software, cloud systems, data processing, and developer-facing tools.
+    </p>
+    <div class="actions">
+      <a class="button primary" href="#work">View my work ↓</a>
+      <a class="button" href="/about">More about me →</a>
+    </div>
+  </section>
+
+  <section class="section" id="work">
+    <div class="section-head">
+      <div><span class="eyebrow">SELECTED WORK</span></div>
+      <div>
+        <h2>Engineering with real constraints.</h2>
+        <p class="section-intro">
+          My work sits at the intersection of application engineering, cloud infrastructure,
+          healthcare data, and systems that have to behave reliably in production.
+        </p>
+      </div>
+    </div>
+
+    <div class="work-grid">
+      <article class="project">
+        <div>
+          <span class="project-number">01 / CEDAR GATE</span>
+          <h3>DeIdentifier</h3>
+          <p>
+            A healthcare data pseudonymization platform for processing EDI, CSV and Parquet
+            files while keeping protected data out of the browser.
+          </p>
+          <div class="tags">
+            <span class="tag">.NET 8</span><span class="tag">Blazor</span><span class="tag">AWS</span>
+            <span class="tag">S3</span><span class="tag">SQS</span>
+          </div>
+        </div>
+        <span class="eyebrow">HEALTHCARE · DATA PRIVACY</span>
+      </article>
+
+      <article class="project">
+        <div>
+          <span class="project-number">02 / CEDAR GATE</span>
+          <h3>EDITracker</h3>
+          <p>
+            A serverless processing and monitoring workflow for healthcare EDI, connecting
+            object storage, messaging, Lambda processing and downstream data systems.
+          </p>
+          <div class="tags">
+            <span class="tag">AWS Lambda</span><span class="tag">S3</span><span class="tag">SNS/SQS</span>
+            <span class="tag">Firehose</span><span class="tag">SQL Server</span>
+          </div>
+        </div>
+        <span class="eyebrow">SERVERLESS · EDI</span>
+      </article>
+
+      <article class="project">
+        <div>
+          <span class="project-number">03 / PERSONAL</span>
+          <h3>Gravity</h3>
+          <p>
+            An interpreted programming language in C#, built from the ideas in the Monkey
+            interpreter book, with a lexer, Pratt parser, AST, closures and a REPL.
+          </p>
+          <div class="tags">
+            <span class="tag">C#</span><span class="tag">Compiler Design</span><span class="tag">Parsing</span>
+            <span class="tag">AST</span>
+          </div>
+        </div>
+        <span class="eyebrow">LANGUAGE · SYSTEMS</span>
+      </article>
+
+      <article class="project">
+        <div>
+          <span class="project-number">04 / ENGINEERING</span>
+          <h3>Observability</h3>
+          <p>
+            Building monitoring and reporting workflows around production data, with a focus
+            on useful operational signals rather than dashboards for their own sake.
+          </p>
+          <div class="tags">
+            <span class="tag">Power BI</span><span class="tag">AWS</span><span class="tag">SQL</span>
+            <span class="tag">Monitoring</span>
+          </div>
+        </div>
+        <span class="eyebrow">DATA · OPERATIONS</span>
+      </article>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="section-head">
+      <div><span class="eyebrow">EXPERIENCE</span></div>
+      <div>
+        <h2>From application code to infrastructure.</h2>
+        <p class="section-intro">
+          I enjoy understanding the whole path from a user's action to the systems that
+          process it, store it, monitor it, and eventually make it useful.
+        </p>
+      </div>
+    </div>
+
+    <div class="timeline">
+      <div class="role">
+        <div class="role-date">CURRENT · 2025—NOW</div>
+        <div>
+          <h3>Software Engineer</h3>
+          <div class="role-company">Cedar Gate Technologies</div>
+          <p>
+            Designing and developing systems for US healthcare in compliance with HIPAA,
+            working across .NET applications, cloud services, data processing and monitoring.
+          </p>
+        </div>
+      </div>
+      <div class="role">
+        <div class="role-date">EARLIER</div>
+        <div>
+          <h3>Associate Software Engineer</h3>
+          <div class="role-company">Cedar Gate Technologies</div>
+          <p>
+            Growing from an engineering foundation into ownership of application features,
+            cloud workflows, monitoring and production problem solving.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="section-head">
+      <div><span class="eyebrow">TOOLBOX</span></div>
+      <div>
+        <h2>Tools are means. Understanding is the skill.</h2>
+      </div>
+    </div>
+    <div class="stack">
+      <div class="stack-item">C# / .NET<span>APPLICATIONS</span></div>
+      <div class="stack-item">ASP.NET Core<span>APIs · MICROSERVICES</span></div>
+      <div class="stack-item">AWS<span>S3 · LAMBDA · API GATEWAY</span></div>
+      <div class="stack-item">SQL<span>SQL SERVER · POSTGRESQL</span></div>
+      <div class="stack-item">MongoDB<span>DATA</span></div>
+      <div class="stack-item">Docker<span>CONTAINERS</span></div>
+      <div class="stack-item">Blazor<span>WEB</span></div>
+      <div class="stack-item">Testing<span>QUALITY</span></div>
+    </div>
+  </section>
+
+  <section class="callout">
+    <span class="eyebrow">NEXT CHAPTER</span>
+    <div>
+      <h2>Still learning.<br />Still building.</h2>
+      <p>
+        I'm interested in systems engineering, distributed systems, cloud architecture,
+        programming languages, and the practical side of building software that lasts.
+      </p>
+      <div class="actions">
+        <a class="button primary" href="/about">About me →</a>
+        <a class="button" href="mailto:hello@dhirajphuyal.com.np">Say hello ↗</a>
+      </div>
+    </div>
+  </section>
+</BaseLayout>

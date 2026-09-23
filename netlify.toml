@@ -1,4 +1,6 @@
 [build]
-  base = "PersonalWebsite/PersonalWebsite.Client"
-  command = "dotnet publish -c Release"
-  publish = "bin/Release/net8.0/publish/wwwroot"
+  command = "npm run build"
+  publish = "dist"
+
+[build.environment]
+  NODE_VERSION = "22"
