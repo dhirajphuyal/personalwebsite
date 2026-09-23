@@ -1,0 +1,4 @@
+[build]
+  base = "PersonalWebsite/PersonalWebsite.Client"
+  command = "dotnet publish -c Release"
+  publish = "bin/Release/net8.0/publish/wwwroot"
